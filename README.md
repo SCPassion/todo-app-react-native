@@ -1,3 +1,11 @@
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
 ## Get started
 
 1. Install dependencies
@@ -7,17 +15,24 @@
    ```
 
 2. Start the app
-
    ```bash
    npx expo
-   or
-   npm run android
    ```
 
-## Get a fresh project
+## Get the async storage in react-native for local storage
 
-When you're ready, run:
+npm install @react-native-async-storage/async-storage
 
-```bash
-npm run reset-project
+## TO start your backend convex
+
 ```
+npm install convex
+npx convex dev
+```
+
+# To restart TS server
+
+Method 1: Command Palette
+Press Ctrl+Shift+P (or Cmd+Shift+P on Mac)
+Type "TypeScript: Restart TS Server"
+Press Enter
