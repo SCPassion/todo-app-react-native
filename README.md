@@ -1,31 +1,16 @@
-## Get a fresh project
-
-When you're ready, run:
+## Get started with Expo
 
 ```bash
-npm run reset-project
+# Initialize a new Expo app
+npx create-expo-app@latest
+
+# Start the app
+npx expo
 ```
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-   ```bash
-   npx expo
-   ```
-
-## Get the async storage in react-native for local storage
-
-npm install @react-native-async-storage/async-storage
 
 ## TO start your backend convex
 
-```
+```bash
 npm install convex
 npx convex dev
 ```
@@ -33,6 +18,21 @@ npx convex dev
 # To restart TS server
 
 Method 1: Command Palette
+
 Press Ctrl+Shift+P (or Cmd+Shift+P on Mac)
+
 Type "TypeScript: Restart TS Server"
+
 Press Enter
+
+## Get the async storage in react-native for local storage
+
+npm install @react-native-async-storage/async-storage
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
