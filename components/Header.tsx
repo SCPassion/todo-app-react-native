@@ -31,7 +31,7 @@ export default function Header() {
         </LinearGradient>
 
         <View style={homeStyles.titleTextContainer}>
-          <Text style={homeStyles.title}>Today&apos;s Progress</Text>
+          <Text style={homeStyles.title}>Today&apos;s Tasks </Text>
           <Text style={homeStyles.subtitle}>
             {completedCount} of {totalCount} completed
           </Text>
